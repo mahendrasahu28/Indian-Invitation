@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.kuchbhi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+  }
+  video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}

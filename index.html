@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="js no-touch csstransitions js no-touch csstransitions csstransformspreserve3d">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <!-- css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Responsive stylesheet -->
+  <link rel="stylesheet" href="css/responsive.css" />
+  <!-- Title -->
+  <title>Indian Invitation</title>
+  <!-- Favicon -->
+  <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+  <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" id="colors" href="css/colors/default.css" type="text/css" />
+  <link rel="stylesheet" href="css/color-switcher.css" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="slide.css">
+
+  <!--Animation Link-->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style type="text/css">
+    .fancybox-margin {
+      margin-right: 17px;
+    }
+  </style>
+  <script id="instafeed-fetcher"
+    src="https://api.instagram.com/v1/users/1691981710/media/recent?access_token=1691981710.b1cd863.1c4d5299499e466392732854131d0641&amp;count=9&amp;callback=instafeedCache538db40179688c68.parse">
+  </script>
+</head>
+
+<body cz-shortcut-listen="true">
+  <div class="wrapper">
+    <div class="wrapper">
+      <div id="preloader" class="preloader">
+      </div>
+
+      <!-- Header Styles -->
+      <header class="header-nav transparent">
+        <div class="container">
+          <!-- Start Navigation -->
+          <nav class="navbar navbar-default navbar-fixed white bootsnav on menu-center no-full">
+            <div class="container">
+              <!-- Start Header Navigation -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i
+                    class="fa fa-bars"></i> </button>
+                <a class="navbar-brand ulockd-main-logo2" href="#brand"> <img src="images/header-logo.png"
+                    class="logo logo-display hidden-md" alt="header-logo.png" /> <img src="images/header-logo2.png"
+                    class="logo logo-scrolled" alt="" /> </a> </div>
+              <!-- End Header Navigation -->
+
+              <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-center ulockd-pad9100 pull-right">
+                  <li class="active scroll"><a href="#home">Home</a></li>
+                  <li class="scroll"><a href="#videos">video</a></li>
+                  <li class="scroll"><a href="#ecard">E-card</a></li>
+                  <li class="scroll"><a href="#about">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /.navbar-collapse -->
+
+          </nav>
+        </div>
+
+
+        <!-- End Navigation -->
+      </header>
+    </div>
+    <!-- Home Design -->
+
+    <!-- Our First Divider -->
+    <section class="kuchbhi" id="home">
+      <div class="item00">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/Image-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-9.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-10.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-11.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-12.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-13.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-14.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Image-15.jpg" alt=""></div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+              rotate: 20,
+              stretch: 0,
+              depth: 200,
+              modifier: 1,
+              slideShadows: true
+            },
+            loop: true,
+            autoplay: {
+              delay: 1500,
+              disableOnInteraction: false,
+            },
+          });
+        </script>
+      </div>
+
+
+    </section>
+
+    <!-- Our Story -->
+    <section class="ulockd-about bgc-overlay-white9 ulockd_bgp3" id="videos">
+      <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="ulockd-main-title">
+              <h2 class="text-thm2">Our Recommendation</h2>
+              <img src="images/resource/title-bottom.png" alt="title-bottom.png" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="our-story timeline">
+              <li>
+                <div class="timeline-badge"> <i class="glyphicon glyphicon-check"></i> </div>
+                <div class="timeline-panel left cd-timeline__block">
+                  <div class="timeline-body w50prcnt pull-left ulockd-pdng15">
+                    <h3 class="timeline-title text-thm2 cd-timeline__img--picture "> <b> 01 - Rose White with Ink </b>
+                    </h3>
+                    <p> Amet consectetur adipisicing elit. Voluptatem, <span class="hiden414"> at placeat fugit magnam.
+                        Quam, temporibus,
+                        doloremque. Excepturi iusto perferendis ad
+                        esse!</span> </p>
+                    
+
+                        
+
+                   <div class="col-md-12 text-center"> <a href="#play" data-toggle="modal"
+                    class="btn btn-lg " title="CLick On It" >
+              
+              <input type="image" src="images/TIMEBTN.png" style="width: 100%; height: auto;" /></a>
+                   
+              <div class="modal fade Play" id="play">
+                      
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header text-center"> <a href="#" data-dismiss="modal" class="class pull-right"><span
+                                class="glyphicon glyphicon-remove"></span></a>
+                            <h3 class="modal-title"> Indianinvitation.in </h3>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-10 col-md-offset-1">
+                                <!-- RSVP Form Starts -->
+                                <form id="video-player" name="play_btn" class="play_btn " method="post"
+                                  novalidate="novalidate">
+                                  <div class="messages"></div>
+                                  <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center clearfix">
+                                      <h1 class="text-thm2 ff-engnmt"><b> 01 - Rose White with Ink </b> </h1>
+                                      <!-- <h5>You're Invited To Jessica & William Wedding Reception On 15 November 2018.</h5> -->
+                                    </div>
+                                
+                                     <center> 
+                                    <div class="video_ply  "  > 
+                                      
+                                      <video  width="320" height="540" controls >
+                                        <source src="movie.mp4" type="video/mp4">
+                                      
+                          
+                                      </video>
+                                   
+                                      
+                                    </div>
+                                  </center>
+                                 
+                                    
+                                  <div class="form-group text-center" style="padding-top: 15px;" >
+                                    <input id="form_botcheck" name="form_botcheck" class="form-control" value="" type="hidden">
+                                    <button type="submit" class="btn btn-lg ulockd-btn-thm2 bdrs20"> Buy on WhatsApp </button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="timeline-body w50prcnt pull-right"> <img src="images/about/s1.jpg" alt="1.png" /> </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge warning"> <i class="glyphicon glyphicon-credit-card"></i> </div>
+                <div class="timeline-panel right">
+                  <div class="timeline-body w50prcnt pull-left"> <img src="images/about/s2.jpg" alt="s2.jpg" /> </div>
+                  <div class="timeline-body w50prcnt pull-right ulockd-pdng15">
+                    <h3 class="timeline-title text-thm2"> <b> 02 - Rose White with Ink </b> </h3>
+
+                    <p> Amet consectetur adipisicing elit. Voluptatem, <span class="hiden414"> at placeat fugit magnam.
+                        Quam, temporibus,
+                        doloremque. Excepturi iusto perferendis ad
+                        esse!</span> </p>
+                    <input type="image" src="images/TIMEBTN.png" style="padding-top: 5px;" />
+                  </div>
+                </div>
+              </li>
+             <li>
+                <div class="timeline-badge danger"> <i class="glyphicon glyphicon-credit-card"></i> </div>
+                <div class="timeline-panel left">
+                  <div class="timeline-body w50prcnt pull-left ulockd-pdng15">
+                    <h3 class="timeline-title text-thm2"> <b> 03 - Rose White with Ink </b> </h3>
+                    <p> Amet consectetur adipisicing elit. Voluptatem, <span class="hiden414"> at placeat fugit magnam.
+                        Quam, temporibus,
+                        doloremque. Excepturi iusto perferendis ad
+                        esse!</span> </p>
+                    <input type="image" src="images/TIMEBTN.png" style="padding-top: 5px;" />
+                  </div>
+                  <div class="timeline-body w50prcnt pull-right"> <img src="images/about/s3.jpg" alt="s3.jpg" /> </div>
+                </div>
+              </li> 
+              <li class="timeline-inverted">
+                <div class="timeline-badge warning"> <i class="glyphicon glyphicon-credit-card"></i> </div>
+                <div class="timeline-panel right">
+                  <div class="timeline-body w50prcnt pull-right"> <img src="images/about/s4.jpg" alt="s4.jpg" /> </div>
+                  <div class="timeline-body w50prcnt pull-right ulockd-pdng15">
+                    <h3 class="timeline-title text-thm2"> <b> 04 - Rose White with Ink </b></h3>
+                        <p> Amet consectetur adipisicing elit. Voluptatem, <span class="hiden414"> at placeat fugit magnam.
+                        Quam, temporibus,
+                        doloremque. Excepturi iusto perferendis ad
+                        esse!</span> </p>
+                        <input type="image" src="images/TIMEBTN.png" style="padding-top: 5px;" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge info"> <i class="glyphicon glyphicon-floppy-disk"></i> </div>
+                <div class="timeline-panel left">
+                  <div class="timeline-body w50prcnt pull-left ulockd-pdng15">
+                    <h3 class="timeline-title text-thm2"> WE TOGETHER NOW </h3>
+                    <h5>INVITATION 05</h5>
+                    <p> <small class="text-muted badge ulockd-bgthm"><span class="text-thm2"> </span> Watch Demo
+                        Video</small> </p>
+                    <p> Amet consectetur adipisicing elit. Voluptatem, <span class="hiden414"> at placeat fugit magnam.
+                        Quam, temporibus,
+                        doloremque. Excepturi iusto perferendis ad
+                        esse!</span> </p>
+                  </div>
+                  <div class="timeline-body w50prcnt pull-right"> <img src="images/about/s5.jpg" alt="s5.jpg" /> </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge success"> <i class="glyphicon glyphicon-thumbs-up"></i> </div>
+                <div class="timeline-panel right">
+                  <div class="timeline-body w50prcnt pull-left"> <img src="images/about/s7.jpg" alt="s7.jpg" /> </div>
+                  <div class="timeline-body w50prcnt pull-right ulockd-pdng15">
+                    <h3 class="timeline-title text-thm2"> INVITATION 01 </h3>
+                    <h5>INVITATION 06</h5>
+                    <p> <small class="text-muted badge ulockd-bgthm"><span class="text-thm2"> </span> Watch Demo
+                        Video</small> </p>
+                    <p> Amet consectetur adipisicing elit. Voluptatem, <span class="hiden414"> at placeat fugit magnam.
+                        Quam, doloremque.</span> </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="timline.js"></script>
+
+    <!-- Our Event -->
+    <section class="events bgc-overlay-white7 ulockd_bgp3" id="ecard">
+      <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="ulockd-main-title">
+              <h2 class="text-thm2">E-Cards</h2>
+              <img src="images/resource/title-bottom.png" alt="title-bottom.png">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 ulockd-pdng5">
+            <div class="event-box">
+              <div class="thumb"> <img class="img-responsive" src="images/event/1.jpg" alt="1.jpg"> </div>
+              <div class="details">
+                <h3>Event Location</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa fa-calendar text-thm2"></i> Friday, 15 November
+                      2018</a></li>
+                  <li><a href="#"><i class="fa fa-clock-o text-thm2"></i> 2:30 PM - 5:30 PM</a></li>
+                  <li><a href="#"><i class="fa fa-home text-thm2"></i> City Hall Park, </a></li>
+                  <li><a href="#"><i class="fa fa-map-marker text-thm2"></i> New York, NY 10007</a> </li>
+                </ul>
+                <p>Our Chosen Place, You And Your Family Are Invited, <strong class="text-thm2"> Thanks</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 ulockd-pdng5">
+            <div class="event-box">
+              <div class="thumb"> <img class="img-responsive" src="images/event/2.jpg" alt="2.jpg"> </div>
+              <div class="details">
+                <h3>The Wedding</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa fa-calendar text-thm2"></i> Friday, 15 November
+                      2018</a></li>
+                  <li><a href="#"><i class="fa fa-clock-o text-thm2"></i> 2:30 PM - 5:30 PM</a></li>
+                  <li><a href="#"><i class="fa fa-home text-thm2"></i> City Hall Park, </a></li>
+                  <li><a href="#"><i class="fa fa-map-marker text-thm2"></i> New York, NY 10007</a> </li>
+                </ul>
+                <p>Our Chosen Place, You And Your Family Are Invited, <strong class="text-thm2"> Thanks</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 ulockd-pdng5">
+            <div class="event-box">
+              <div class="thumb"> <img class="img-responsive" src="images/event/3.jpg" alt="3.jpg"> </div>
+              <div class="details">
+                <h3>Gift Registry</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa fa-calendar text-thm2"></i> Friday, 15 November
+                      2018</a></li>
+                  <li><a href="#"><i class="fa fa-clock-o text-thm2"></i> 2:30 PM - 5:30 PM</a></li>
+                  <li><a href="#"><i class="fa fa-home text-thm2"></i> City Hall Park, </a></li>
+                  <li><a href="#"><i class="fa fa-map-marker text-thm2"></i> New York, NY 10007</a> </li>
+                </ul>
+                <p>Our Chosen Place, You And Your Family Are Invited, <strong class="text-thm2"> Thanks</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 ulockd-pdng5">
+            <div class="event-box">
+              <div class="thumb"> <img class="img-responsive" src="images/event/4.jpg" alt="4.jpg"> </div>
+              <div class="details">
+                <h3>Reception/Party</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa fa-calendar text-thm2"></i> Friday, 15 November
+                      2018</a></li>
+                  <li><a href="#"><i class="fa fa-clock-o text-thm2"></i> 2:30 PM - 5:30 PM</a></li>
+                  <li><a href="#"><i class="fa fa-home text-thm2"></i> City Hall Park, </a></li>
+                  <li><a href="#"><i class="fa fa-map-marker text-thm2"></i> New York, NY 10007</a> </li>
+                </ul>
+                <p>Our Chosen Place, You And Your Family Are Invited, <strong class="text-thm2"> Thanks</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row ulockd-mrgn1240">
+          <div class="col-md-12 text-center"> <a href="#rsvp_forms" data-toggle="modal"
+              class="btn btn-lg ulockd-btn-thm2 bdrs20" title="CLick On It">SEE MORE&nbsp;</a>
+            <!-- Product Popup View Start-->
+            <div class="modal fade rsvp_forms" id="rsvp_forms">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header text-center"> <a href="#" data-dismiss="modal" class="class pull-right"><span
+                        class="glyphicon glyphicon-remove"></span></a>
+                    <h3 class="modal-title">RSVP Form. </h3>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-10 col-md-offset-1">
+                        <!-- RSVP Form Starts -->
+                        <form id="rsvp_form" name="rsvp_form" class="rsvp_form text-left" method="post"
+                          novalidate="novalidate">
+                          <div class="messages"></div>
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 text-center clearfix">
+                              <h1 class="text-thm2 ff-engnmt">Jessica & William Wedding RSVP </h1>
+                              <h5>You're Invited To Jessica & William Wedding Reception On 15 November 2018.</h5>
+                            </div>
+                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+                              <div class="form-group">
+                                <label for="form_name">Full Name <small>*</small></label>
+                                <input id="form_name" name="form_name" class="form-control" placeholder="Enter a name">
+                              </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+                              <div class="form-group">
+                                <label for="FormControlSelect1">Are You
+                                  Attending?</label>
+                                <select class="form-control" id="FormControlSelect1">
+                                  <option>Select an option</option>
+                                  <option>All event</option>
+                                  <option>Wedding</option>
+                                  <option>Reception</option>
+                                  <option>No</option>
+                                  <option>Other</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+                              <div class="form-group">
+                                <label for="FormControlSelect2">Your Meal
+                                  Selection</label>
+                                <select class="form-control" id="FormControlSelect2">
+                                  <option>Select an option</option>
+                                  <option>Chicken</option>
+                                  <option>Beef</option>
+                                  <option>vegetarian</option>
+                                  <option>Other</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+                              <div class="form-group">
+                                <label for="FormControlSelect3">Are You Bringing a
+                                  guest?</label>
+                                <select class="form-control" id="FormControlSelect3">
+                                  <option>Select an option</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>More..</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+                              <div class="form-group">
+                                <label for="form_name2">Guest Name</label>
+                                <input id="form_name2" name="form_name2" class="form-control"
+                                  placeholder="Enter a name">
+                              </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+                              <div class="form-group">
+                                <label for="FormControlSelect4">Meal Selection</label>
+                                <select class="form-control" id="FormControlSelect4">
+                                  <option>Select an option</option>
+                                  <option>Chicken</option>
+                                  <option>Beef</option>
+                                  <option>vegetarian</option>
+                                  <option>Other</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group text-center">
+                            <input id="form_botcheck" name="form_botcheck" class="form-control" value="" type="hidden">
+                            <button type="submit" class="btn btn-lg ulockd-btn-thm2 bdrs20">Send Us</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product Popup View End-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Gallery-->
+    <section id="photostack-3" class="photostack ulockd-bgthm photostack-perspective photostack-transition"
+      style="background: rgb(72, 209, 204);">
+      <div>
+        <figure class="photostack-flip photostack-current" style="transform: translate(27.5px, 40px) rotate(0deg)">
+          <a href="images/gallery/1.jpg" class="photostack-img popup-img"><img src="images/gallery/1.jpg"
+              alt="1.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">The Wedding</h2>
+            <div class="photostack-back">
+              <p>
+                Iorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat a fugit nostrum officia corporis
+                quos sed suscipit laudantium dolore! Reprehenderit praesentium nam odio perferendis perspiciatis,
+                voluptatem?
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure style="transform: translate(468.833px, 220px) rotate(35deg)">
+          <a href="images/gallery/1a.jpg" class="photostack-img popup-img"><img src="images/gallery/1a.jpg"
+              alt="1a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Happy Days</h2>
+            <div class="photostack-back">
+              <p>
+                Iorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat a fugit nostrum officia corporis
+                quos sed suscipit laudantium dolore! Reprehenderit praesentium nam odio perferendis perspiciatis,
+                voluptatem?
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure style="transform: translate(27.5px, -382px) rotate(-8deg)">
+          <a href="images/gallery/2.jpg" class="photostack-img popup-img"><img src="images/gallery/2.jpg"
+              alt="2.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Beautywood</h2>
+            <div class="photostack-back">
+              <p>
+                Iorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat a fugit nostrum officia corporis
+                quos sed suscipit laudantium dolore! Reprehenderit praesentium nam odio perferendis perspiciatis,
+                voluptatem?
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure style="transform: translate(-132.5px, -416px) rotate(9deg)">
+          <a href="images/gallery/2a.jpg" class="photostack-img popup-img"><img src="images/gallery/2a.jpg"
+              alt="2a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Serenity Beach</h2>
+            <div class="photostack-back">
+              <p>
+                Iorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat a fugit nostrum officia corporis
+                quos sed suscipit laudantium dolore! Reprehenderit praesentium nam odio perferendis perspiciatis,
+                voluptatem?
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure style="transform: translate(420.833px, 546px) rotate(30deg)">
+          <a href="images/gallery/3.jpg" class="photostack-img popup-img"><img src="images/gallery/3.jpg"
+              alt="3.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Heaven of time</h2>
+            <div class="photostack-back">
+              <p>
+                Iorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat a fugit nostrum officia corporis
+                quos sed suscipit laudantium dolore! Reprehenderit praesentium nam odio perferendis perspiciatis,
+                voluptatem?
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure style="transform: translate(-418.833px, -443px) rotate(-31deg)">
+          <a href="images/gallery/3a.jpg" class="photostack-img popup-img"><img src="images/gallery/3a.jpg"
+              alt="3a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Forever this</h2>
+            <div class="photostack-back">
+              <p>
+                Iorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat a fugit nostrum officia corporis
+                quos sed suscipit laudantium dolore! Reprehenderit praesentium nam odio perferendis perspiciatis,
+                voluptatem?
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(27.5px, -408px) rotate(-16deg)">
+          <a href="images/gallery/4.jpg" class="photostack-img popup-img"><img src="images/gallery/4.jpg"
+              alt="4.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Lovely Green</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(468.833px, 220px) rotate(7deg)">
+          <a href="images/gallery/4a.jpg" class="photostack-img popup-img"><img src="images/gallery/4a.jpg"
+              alt="4a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Wonderful</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(27.5px, -382px) rotate(-30deg)">
+          <a href="images/gallery/5.jpg" class="photostack-img popup-img"><img src="images/gallery/5.jpg"
+              alt="5.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Love Addict</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(-132.5px, -416px) rotate(-10deg)">
+          <a href="images/gallery/5a.jpg" class="photostack-img popup-img"><img src="images/gallery/5a.jpg"
+              alt="5a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Friendship</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(420.833px, 546px) rotate(-35deg)">
+          <a href="images/gallery/6.jpg" class="photostack-img popup-img"><img src="images/gallery/6.jpg"
+              alt="6.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">White Nights</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(-418.833px, -443px) rotate(10deg)">
+          <a href="images/gallery/6a.jpg" class="photostack-img popup-img"><img src="images/gallery/6a.jpg"
+              alt="6a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Serendipity</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(27.5px, -408px) rotate(-32deg)">
+          <a href="images/gallery/7.jpg" class="photostack-img popup-img"><img src="images/gallery/7.jpg"
+              alt="7.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Pure Soul</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(468.833px, 220px) rotate(8deg)">
+          <a href="images/gallery/7a.jpg" class="photostack-img popup-img"><img src="images/gallery/7a.jpg"
+              alt="7a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Winds of Peace</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(27.5px, -382px) rotate(-24deg)">
+          <a href="images/gallery/8.jpg" class="photostack-img popup-img"><img src="images/gallery/8.jpg"
+              alt="8.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Shades of blue</h2>
+          </figcaption>
+        </figure>
+        <figure data-dummy="" style="transform: translate(-132.5px, -416px) rotate(-26deg)">
+          <a href="images/gallery/8a.jpg" class="photostack-img popup-img"><img src="images/gallery/8a.jpg"
+              alt="8a.jpg" /></a>
+          <figcaption>
+            <h2 class="photostack-title">Lightness</h2>
+          </figcaption>
+        </figure>
+      </div>
+      <nav>
+        <span class="current flippable"></span><span></span><span></span><span></span><span></span><span></span>
+      </nav>
+    </section>
+
+
+    <!-- Our Divider -->
+
+    <!-- Our Footer -->
+    <section class="ulockd-footers bgc-overlay-white8 ulockd_bgi4" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="footer-box text-center">
+              <h2 class="text-thm2">Have More Queries</h2>
+              <h1 class="text-thm2">WhatsApp Us</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row ulockd-mrgn1250">
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+            <div class="about-box2 text-center wow fadeInUp" data-wow-duration="1s" style="
+                    visibility: visible;
+                    animation-duration: 1s;
+                    animation-name: fadeInUp;
+                  ">
+              <div class="ab-thumb">
+                <div class="about-icon2 text-center"> <i class="flaticon-map-marker"></i> </div>
+              </div>
+              <div class="ab-details">
+                <h3>Location</h3>
+                <p>36Inc City Centre Mall&nbsp;</p>
+                <p>Pandri, Raipur India. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+            <div class="about-box2 text-center wow fadeInUp" data-wow-duration="1.3s" style="
+                    visibility: visible;
+                    animation-duration: 1.3s;
+                    animation-name: fadeInUp;
+                  ">
+              <div class="ab-thumb">
+                <div class="about-icon2 text-center"> <i class="flaticon-black-back-closed-envelope-shape"></i> </div>
+              </div>
+              <div class="ab-details">
+                <h3>Mail Us</h3>
+                <p> indianinvitationcompany@gmail.com <br />
+                  contact@indianinvitation.com </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+            <div class="about-box2 text-center wow fadeInUp" data-wow-duration="1.6s" style="
+                    visibility: visible;
+                    animation-duration: 1.6s;
+                    animation-name: fadeInUp;
+                  ">
+              <div class="ab-thumb">
+                <div class="about-icon2 text-center"> <i class="flaticon-telephone-1"></i> </div>
+              </div>
+              <div class="ab-details">
+                <h3>Call Us</h3>
+                <p> +91 7000371321 <br />
+                  +91 7745966900 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our CopyRight Section -->
+    <section class="ulockd-copy-right">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="color-white">Indian Invitation Copyright© 2022 ||Made with <i class="fa fa-heart-o"
+                aria-hidden="true"></i> by <a href="https://www.instagram.com/mukeshh02" target="_blank">Mukesh
+                Sharma</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <a class="scrollToHome ulockd-bgthm" href="#" style="display: block"><i class="fa fa-home"></i></a> -->
+  </div>
+  <!-- Wrapper End -->
+  <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootsnav.js"></script>
+  <script type="text/javascript" src="js/parallax.js"></script>
+  <script type="text/javascript" src="js/scrollto.js"></script>
+  <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+  <script type="text/javascript" src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/gallery.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
+  <script type="text/javascript" src="js/video-player.js"></script>
+  <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+  <script type="text/javascript" src="js/jquery.barfiller.js"></script>
+  <script type="text/javascript" src="js/timepicker.js"></script>
+  <script type="text/javascript" src="js/tweetie.js"></script>
+  <!-- Custom script for all pages -->
+  <script type="text/javascript" src="js/color-switcher.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript">
+    // [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+    new Photostack(document.getElementById("photostack-3"), {
+      callback: function (item) {
+        //console.log(item)
+      },
+    });
+  </script>
+</body>
+
+</html>
